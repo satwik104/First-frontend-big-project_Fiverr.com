@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <!-- font awesom icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- flickity css -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="stylehome.css">
+    <link rel="stylesheet" href="home responsive.css">
+
+    <title>Home</title>
+</head>
+
+<body>
+    <!---------Navbar html------------->
+    <div class="header">
+        <div class="container">
+            <nav class="navbar bg">
+                <a href="index.html" id="logo">Home To U <i class=" special-icon bi bi-circle-fill"></i></a>
+                <div>
+                    <ul class="nav-links">
+                        <li><a class="scroll" href="business.html">Our Business</a></li>
+                        <li><a class="scroll" href="about.html">About</a></li>
+                        <li><a class="scroll" href="Contact.html"><i class="bi bi-telephone"></i> Contact us</a></li>
+                        <li><a class="scroll" href="cart.html"><i class="bi bi-cart"></i> Cart</a></li>
+                        <li><a class="scroll" href="Seller.html">Become a Cook</a></li>
+                        <li><a class="scroll" href="account.html">Sign in</a></li>
+                        <li> <a class="scroll" href="https://form.jotform.com/211974379515061"><button id="join-btn"
+                                    class="js">Join</button></a></li>
+                    </ul>
+                    <div class="menu"><i class="bi bi-list"></i></div>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-2" id="col">
+                    <h1>Find the Delicious <i>Food</i><br>recipes for your day</h1>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Try 'Tandoori Burger'">
+                        <input type="submit" value="search">
+                    </div>
+                    <p class="popular">
+                    <h6>Popular Cuisines:</h6>
+                    <a href="website.html"><button class="direct-btn">Punjabi Tadka</button></a>
+                    <a href="app.html"> <button class="direct-btn">Homy Junk</button></a>
+                    <a href="graphics.html"> <button class="direct-btn">Italian Food</button></a>
+                    <a href="marketing.html"> <button class="direct-btn">North Indian</button></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------Trusted by---------------->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <h5>Trusted By:</h5>
+                </div>
+                <div class="col-5">
+                    <h4>MOM's India</h4>
+                </div>
+                <div class="col-5">
+                    <h4>Food Corner</h4>
+                </div>
+                <div class="col-5">
+                    <h4>&nbsp; FoodArt</h4>
+                </div>
+                <div class="col-5">
+                    <h4> Health-meal</h4>
+                </div>
+                <div class="col-5">
+                    <h4>Broadway</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------Recently viwed section---------------->
+    <div class="container">
+        <h1 id="heading-1">Choose your meal</h1>
+
+        <div class="carousel" data-flickity='{ "groupCells": true, "autoPlay": true, "wrapAround":true }'>
+            <div class="carousel-cell">
+                <img src="./home-images/slider-pic1.1.jpeg">
+            </div>
+            <div class="carousel-cell"><img src="logo.png" class="img-fluid"></div>
+            <div class="carousel-cell"><img src="./home-images/slider-pic1.3.png" class="img-fluid"></div>
+            <div class="carousel-cell"><img src="./home-images/slider-pic1.4.jpg" class="img-fluid"></div>
+            <div class="carousel-cell"><img src="./home-images/slider-pic1.5.jpg" class="img-fluid"></div>
+            <div class="carousel-cell"><img src="./home-images/slider-pic1.6.jfif" class="img-fluid"></div>
+            <div class="carousel-cell"><img src="logo.png" class="img-fluid"></div>
+            <div class="carousel-cell"><img src="./home-images/slider-pic1.8.jpg" class="img-fluid"></div>
+            <div class="carousel-cell"><img src="./home-images/slider-pic1.9.jpeg" class="img-fluid"></div>
+            <div class="carousel-cell"><img src="./home-images/slider-pic1.10.jfif" class="img-fluid"></div>
+            <div class="carousel-cell"><img src="logo.png" class="img-fluid"></div>
+            <div class="carousel-cell"><img src="./home-images/slider-pic1.5.jpg" class="img-fluid"></div>
+        </div>
+    </div>
+    <!------------------popular services section---------------->
+    <div class="container">
+        <h1 id="heading-1">Popular professional services</h1>
+        <!-- Flickity HTML init -->
+        <div class="second carousel" data-flickity='{ "groupCells": true, "autoPlay": true, "wrapAround":true }'>
+            <div class="carousel-cell">
+                <div class="content">
+                    <p>Design your logos with us</p>
+                    <h3> Graphic & Design service</h3>
+                </div>
+                <a href="graphics.html"><img src="./home-images/slider-pic2.1.jfif" class="img-fluid"></a>
+            </div>
+            <div class="carousel-cell">
+                <div class="content">
+                    <p>Design your business with us</p>
+                    <h3>Website Design service</h3>
+                </div>
+                <a href="website.html"><img src="./home-images/slider-pic2.2.jfif" class="img-fluid"></a>
+            </div>
+            <div class="carousel-cell">
+                <div class="content">
+                    <p>Magic of voice</p>
+                    <h3>Voice Over</h3>
+                </div>
+                <a href=""> <img src="./home-images/slider-pic2.3.jfif" class="img-fluid"></a>
+            </div>
+            <div class="carousel-cell">
+                <div class="content">
+                    <p>Market your business</p>
+                    <h3>Marketing services</h3>
+                </div>
+                <a href="marketing.html"><img src="./home-images/slider-pic2.4.jfif" class="img-fluid"> </a>
+            </div>
+            <div class="carousel-cell">
+                <div class="content">
+                    <p>Design an app for your bussiness</p>
+                    <h3>App development services</h3>
+                </div>
+                <a href="app.html"><img src="./home-images/slider-pic2.5.jfif" class="img-fluid"></a>
+            </div>
+            <div class="carousel-cell">
+                <div class="content">
+                    <p>Content is the key</p>
+                    <h3>Content writing sevices</h3>
+                </div>
+                <a href="content.html"><img src="./home-images/slider-pic2.6.jfif" class="img-fluid"></a>
+            </div>
+            <div class="carousel-cell">
+                <div class="content">
+                    <p>Get tech support</p>
+                    <h3>IT & support</h3>
+                </div>
+                <a href=""><img src="./home-images/slider-pic2.7.jfif" class="img-fluid"></a>
+            </div>
+            <div class="carousel-cell">
+                <div class="content">
+                    <p>Visualize it with us</p>
+                    <h3>Video & animation services</h3>
+                </div>
+                <a href=""><img src="./home-images/slider-pic2.8.jfif" class="img-fluid"></a>
+            </div>
+            <div class="carousel-cell">
+                <div class="content">
+                    <p>Design your logo</p>
+                    <h3>Logo Design</h3>
+                </div>
+                <a href="graphics.html"><img src="./home-images/slider-pic2.9.jfif" class="img-fluid"></a>
+            </div>
+            <div class="carousel-cell">
+                <div class="content">
+                    <p>Design your logo</p>
+                    <h3>Logo Design</h3>
+                </div>
+                <a href="graphics.html"><img src="./home-images/slider-pic2.10.jfif" class="img-fluid"></a>
+            </div>
+            <div class="carousel-cell">
+                <div class="content">
+                    <p>Design your logo</p>
+                    <h3>Logo Design</h3>
+                </div>
+                <a href="graphics.html"><img src="./home-images/slider-pic2.2.jfif" class="img-fluid"></a>
+            </div>
+            <div class="carousel-cell">
+                <div class="content">
+                    <p>Design your logo</p>
+                    <h3>Logo Design</h3>
+                </div>
+                <a href="graphics.html"><img src="./home-images/slider-pic2.5.jfif" class="img-fluid"></a>
+            </div>
+        </div>
+    </div>
+    <!---------------A whole world of freelance---------->
+    <div class="header-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-2-text">
+                    <h1>A whole world of tech <br> services at your fingertips</h1>
+                    <div class="content-head">
+                        <h3><i class="bi bi-check-circle"></i> The best for every budget</h3>
+                        <div class="p">
+                            <p>Find high-quality services at every price point. No <br>hourly rates, just project-based
+                                pricing.</p>
+                        </div>
+                    </div>
+
+                    <div class="content-head">
+                        <h3><i class="bi bi-check-circle"></i> Quality work done quickly</h3>
+                        <div class="p">
+                            <p>Find the right service to begin working on your<br> project within minutes.</p>
+                        </div>
+                    </div>
+
+                    <div class="content-head">
+                        <h3><i class="bi bi-check-circle"></i> Protected payments, every time</h3>
+                        <div class="p">
+                            <p>Always know what you'll pay upfront. Your payment<br> isn't released until you approve
+                                the
+                                work.</p>
+                        </div>
+                    </div>
+                    <div class="content-head">
+                        <h3><i class="bi bi-check-circle"></i> 24/7 support</h3>
+                        <div class="p">
+                            <p>Questions? Our round-the-clock support team is <br>available to help anytime, anywhere.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2-video">
+                    <div class="video-player">
+                        <video controls autoplay>
+                            <source src="./home-images/RC video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------Testimonial---------------->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="bi bi-chat-left-quote-fill"></i>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non nesciunt incidunt, quas optio
+                        itaque sequi magnam repudiandae officiis minus quidem aliquam perspiciatis! Ab animi ea nisi
+                        amet, quae possimus nulla!</p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <img src="./home-images/user-1.png" class="img-fluid" alt="">
+                    <h3>Sean parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="bi bi-chat-left-quote-fill"></i>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non nesciunt incidunt, quas optio
+                        itaque sequi magnam repudiandae officiis minus quidem aliquam perspiciatis! Ab animi ea nisi
+                        amet, quae possimus nulla!</p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <img src="./home-images/user-2.png" class="img-fluid" alt="">
+                    <h3>Lowda Lasoon</h3>
+                </div>
+                <div class="col-3">
+                    <i class="bi bi-chat-left-quote-fill"></i>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non nesciunt incidunt, quas optio
+                        itaque sequi magnam repudiandae officiis minus quidem aliquam perspiciatis! Ab animi ea nisi
+                        amet, quae possimus nulla!</p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <img src="./home-images/user-3.png" class="img-fluid" alt="">
+                    <h3>Carol Bishop</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------footer------------ -->
+    <hr>
+    <footer>
+        <div class="container">
+            <div class="box">
+                <h3>Categories</h3>
+                <ul>
+                    <li>
+                        <a href="graphics.html">Graphics & Design</a>
+                    </li><br>
+                    <li>
+                        <a href="marketing.html">Digital Marketing</a>
+                    </li><br>
+                    <li>
+                        <a href="content.html">Writing & Translation</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Video & Animation</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Music & Audio</a>
+                    </li><br>
+                    <li>
+                        <a href="website.html">Programming & Tech</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Data</a>
+                    </li><br>
+                    <li>
+                        <a href="business.html">Business</a>
+                    </li><br>
+                    <li>
+                        <a href="Seller.html">Lifestyle</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Sitemap</a>
+                    </li><br>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>About</h3>
+                <ul>
+                    <li>
+                        <a href="#">Careers</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Press & News
+                        </a>
+                    </li><br>
+                    <li>
+                        <a href="#">Partnerships</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Terms of Service</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Intellectual</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Property Claims</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Investor Relations</a>
+                    </li><br>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Community</h3>
+                <ul>
+                    <li>
+                        <a href="#">Events</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Blog
+                        </a>
+                    </li><br>
+                    <li>
+                        <a href="#">Forum</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Community Standards</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Podcast</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Affiliates
+                        </a>
+                    </li><br>
+                    <li>
+                        <a href="#">
+                            Invite a Friend</a>
+                    </li><br>
+                    <li>
+                        <a href="Seller.html">Become a Seller
+                        </a>
+                    </li><br>
+                    <li>
+                        <a href="#">our Elevate</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Exclusive Benefits</a>
+                    </li><br>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>More From Readycoder</h3>
+                <ul>
+                    <li>
+                        <a href="business.html">Our Business</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Our Pro</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Our Studios</a>
+                    </li><br>
+                    <li>
+                        <a href="graphics.html">Our Logo Maker</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Our Guides</a>
+                    </li><br>
+                    <li>
+                        <a href="#">ClearVoice</a>
+                    </li><br>
+                    <li>
+                        <a href="#">AND CO</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Invoice Software</a>
+                    </li><br>
+                    <li>
+                        <a href="#">Learn</a>
+                    </li><br>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="container">
+        <hr>
+    </div>
+    <!----------Copyrights------------>
+    <footer class="container">
+        <div class="row-last">
+            <div class="col-1 copyright">
+                Copyright 2020 .All rights reserved by ReadyCoder International Ltd
+            </div>
+            <div class="col-1 c-icons">
+                <a href="https://www.facebook.com/Readycoder"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/readycoder/?utm_medium=copy_link"><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <i class="bi bi-google"></i>
+                <a href="https://www.linkedin.com/in/readycoder-6a7447203"><i class="bi bi-linkedin"></i></a>
+                <a href="https://g.page/r/CTBFVmb-aEHJEA0"> <i class="bi bi-globe2"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- flickty script -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="home app.js"></script>
+    <script>
+        $(window).scroll(function () {
+            $('nav').toggleClass('selected', $(this).scrollTop() > 100);
+            $('nav').toggleClass('anchor', $(this).scrollTop() > 100);
+            $(document).ready(function () {
+                'use strict';
+                $(window).on('scroll', evt => {
+                    if ($(evt.target).scrollTop() > 1) {
+                        $(".scroll").addClass('text');
+                    } else {
+                        $(".scroll").removeClass('text');
+                    }
+                })
+            })
+
+        });
+        $(document).ready(function () {
+            'use strict';
+            $(window).on('scroll', evt => {
+                if ($(evt.target).scrollTop() > 1) {
+                    $(".js").addClass('btnjs');
+                } else {
+                    $(".js").removeClass('btnjs');
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>
