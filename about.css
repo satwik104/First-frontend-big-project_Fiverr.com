@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'sans-serif', sans-serif;
+}
+/* navbar */
+.header{
+    height: 50px;
+    background-size: cover;
+} 
+.container{
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 35px;
+}
+li, .navbar a, button{
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(126, 123, 123);
+    text-decoration: none;
+}
+#active{
+    color: rgb(80, 240, 165);
+}
+#logo{
+    margin-right: auto;
+    font-weight: 900;
+    font-size: 25px;
+    color: #555;
+}
+.special-icon{
+    font-size: 8px;
+    color: rgb(9, 255, 132);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 20px;
+   
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.nav-links a:hover{
+    color: rgb(3, 184, 99);
+}
+#join-btn{
+    padding: 8px 15px;
+    background: transparent;
+    border: 1px solid rgb(3, 184, 99);
+    color: rgb(3, 184, 99);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#join-btn:hover{
+    background-color: rgb(3, 184, 99);
+    color: #fff;
+}
+.navbar input{
+    position: relative;
+    left: -1%;
+}
+input[type="text"]{
+    background: #fff;
+    width: 20%;
+    height: 35px;
+    border: 1px solid #555;
+    border-radius: 3px 0 0 3px;
+    outline: none;
+    padding: 0 20px;
+    color: #555;
+    font-size: 17px;
+}
+input[type="submit"]{
+    color: #fff;
+    background: rgb(3, 184, 99);
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    left: -60px;
+    top: 0px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(7, 158, 88);
+}
+
+/* ------------Banner------------- */
+
+.carousel {
+  background: #FAFAFA;
+  height: 600px;
+}
+.carousel img{
+    width: 100%;
+}
+.carousel-cell {
+  width: 100%;
+  height: 600px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: "";
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.flickity-page-dots{
+    display:none;
+}
+#about{
+   font-size:60px;
+   color:#06065cfd;
+   display:flex;
+   justify-content:center;
+}
+
+/* <!-- Finding the right talent? Leave that to us --> */
+
+.container-2{
+    margin:auto;
+    padding-left:2%;
+    padding-right:2%;
+} 
+.row-2{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+} 
+.col-6{
+    flex-basis: 50%;
+    min-width:300px;
+} 
+.col-6 img{
+    max-width: 100%;
+    padding:50px 0;
+}
+.col-6 h2{
+    font-size:25px;
+    line-height:30px;
+    margin-left: 160px;
+    color:#06065cfd;
+}
+.col-6 p{
+    font-size: 16px;
+    line-height:25px;
+    margin-top:25px;
+    margin-left: 160px;
+    color:grey;
+}
+.btn-2{
+    display:inline-block;
+    text-decoration:none;
+    font-size: 20px;
+    background:rgb(3,184,99);
+    color:#fff;
+    margin-left: 160px;
+    margin-top:20px;
+    padding:12px 40px;
+    border-radius: 10px;
+    text-align: center;
+    transition: background 0.5s;
+}
+.btn-2:hover{
+    background:#298A08;
+}
+
+/* Turn scattered feedback into productive teamwork */
+.container-3{
+    margin:auto;
+    padding-left:2%;
+    padding-right:2%;
+} 
+.row-3{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+} 
+.col-7{
+    flex-basis: 50%;
+    min-width:300px;
+} 
+.col-7 img{
+    max-width: 100%;
+    padding:50px 0;
+}
+.col-7 h2{
+    font-size:25px;
+    line-height:30px;
+    margin-left: 100px;
+    color:#06065cfd;
+}
+.col-7 p{
+    font-size: 16px;
+    line-height:25px;
+    margin-top:25px;
+    margin-left: 100px;
+    color:grey;
+}
+.btn-3{
+    display:inline-block;
+    text-decoration:none;
+    font-size: 20px;
+    background:rgb(3,184,99);
+    color:#fff;
+    margin-left: 100px;
+    margin-top:20px;
+    padding:12px 40px;
+    border-radius: 10px;
+    text-align: center;
+    transition: background 0.5s;
+}
+.btn-3:hover{
+    background:#298A08;
+}
+
+/* meet our team  */
+.b-container{
+    /* margin:20px 40px; */
+    color:white;
+    background-color:#12172b;
+    height:600px;
+}
+
+.heading{
+    font-size: 60px;
+    color:white;
+    display:flex;
+    justify-content:center;
+   
+}
+
+.profiles {
+    display: flex;
+    justify-content:space-around;
+    margin:20px 80px;
+}
+.profile{
+    flex-basis:260px;
+}
+
+.profile .profile-img {
+    height:260px;
+    width:260px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition:400ms;
+}
+
+.profile:hover .profile-img{
+    filter: grayscale(0);
+}
+
+.user-name {
+    margin-top:30px;
+    font-size:35px;
+}
+.profile h5 {
+    font-size: 18px;
+    font-weight:100;
+    letter-spacing:3px;
+    color:#ccc;
+}
+.profile p {
+    font-size:16px;
+    margin-top:20px;
+    text-align:justify;
+}
+
+@media only screen and (max-width: 1150px){
+    .profiles {
+        flex-direction: column;
+    }
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile p{
+        text-align: center;
+        margin: 20px 60px 80px 60px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .heading{
+        font-size:40px;
+        color:white;
+        text-align: center;
+    }
+    .heading span{
+        font-size:15px;
+    }
+    .profiles{
+        margin: 20px 0;
+    }
+    .profile p{
+        margin: 20px 10px 80px 10px;
+    }
+} 
+
+/* *-------------copyright css-------------- */ */
+
+.c-container{
+    max-width: 1400px;
+    margin:auto;
+    padding: 0 35px;
+}
+footer .row-last{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top:0px;
+    margin-bottom:0px;
+    background:rgb(248, 245, 245);
+    height: 50px;
+    padding-top: 0;
+   
+}
+footer .copyright{
+    display: inline;
+    width: 70%;
+    font-size: 15px;
+    font-weight: bold;
+    color: #555;
+    margin-top:20px;
+}
+footer .c-icons{
+    display: flex;
+    gap: 5%;
+    font-size: 20px;
+    width: 50%;
+    color: #555;
+    cursor: pointer;
+    margin-top:20px;
+}
