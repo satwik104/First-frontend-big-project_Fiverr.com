@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap icon link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- customize css -->
+    <link rel="stylesheet" href="cart.css">
+    <!-- font awesome icons link -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Readycoder - Cart Page</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <a href="index.html" id="logo">ReadyCoder <i class="fa fa-circle special-icon"></i></a>
+                <input type="text" placeholder="Find Services">
+                <input type="submit" value="Search">
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="" id="active">Pro Version</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="Contact.html"> Contact us</a></li>
+                        <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+                        <li><a href="Seller.html">Become a seller</a></li>
+                        <li><a href="account.html">Sign in</a></li>
+                    </ul>
+                </nav>
+                <a href="https://form.jotform.com/211974379515061"><button id="join-btn">Join</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- Cart Items Details -->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="cart images/cartimg1.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>Responsive Website</p>
+                        <small>Price: &#8377;3000</small> <br>
+                        <a href="">Remove</a>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>&#8377;3000</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="cart images/cartimg2.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>Blog Website</p>
+                        <small>Price: &#8377;5000</small> <br>
+                        <a href="">Remove</a>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>&#8377;5000</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="cart images/cartimg3.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>E-commerce Website</p>
+                        <small>Price: &#8377;7000</small> <br>
+                        <a href="">Remove</a>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>&#8377;7000</td>
+            </tr>
+        </table>
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>&#8377;15000</td>
+                </tr>
+                <tr>
+                    <td>GST</td>
+                    <td>&#8377;3000</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>&#8377;18000</td>
+                </tr>
+            </table>
+        </div>
+        <div class="pay">
+            <a href="firstpayment.html"><button>Checkout</button></a>
+        </div>
+    </div>
+
+    <!----------Copyrights------------>
+
+    <footer class="container">
+        <div class="row-last">
+            <div class="col-1 copyright">
+                &nbsp;&nbsp;Privacy Policy | Terms of Services &nbsp;&nbsp;&#169; Readycoder International Ltd.2021
+            </div>
+            <div class="col-1 c-icons">
+                <i class="fa fa-facebook-square"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-google-plus-square"></i>
+                <i class="fa fa-linkedin-square"></i>
+                <i class="fa fa-globe"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
