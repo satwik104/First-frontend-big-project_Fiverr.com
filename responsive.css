@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'sans-serif', sans-serif;
+}
+@media only screen and (max-width:1265px){
+    #menu {
+        display:block;
+    }
+    .beta{
+        display: none;
+    }
+    .search-bar{
+        margin:0 auto ;
+        width:30%;
+        position: absolute;
+        left:35%;
+    }
+    .li-block{
+        font-size:5px;
+        line-height: 1rem;
+    }
+}
+@media only screen and (max-width:795px){
+    #long{
+        display:none;
+    }
+    #short{
+        display: block;
+    }
+}
+@media only screen and (max-width:1055px){
+    .heading h1{
+        margin:10px auto;
+        width: 100%;
+        font-size:1.5rem;
+    }
+    .nav-links{
+        width:90%;
+        left: 5%;
+        padding:2%;
+    }
+
+}
+@media only screen and (max-width:572px){
+    .pagination a{
+        padding: 8px 8px;
+    }
+}
