@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'sans-serif', sans-serif;
+    overflow-x: hidden;
+}
+.header{
+    height: 50px;
+} 
+.container{
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 25px;
+}
+li, a, button{
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(126, 123, 123);
+    text-decoration: none;
+}
+#active{
+    color: rgb(80, 240, 165);
+}
+#logo{
+    margin-right: auto;
+    font-weight: 900;
+    font-size: 25px;
+    color: #555;
+}
+.special-icon{
+    font-size: 8px;
+    color: rgb(9, 255, 132);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 20px;
+   
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.nav-links a:hover{
+    color: rgb(3, 184, 99);
+}
+#join-btn{
+    padding: 8px 15px;
+    background: transparent;
+    border: 1px solid rgb(3, 184, 99);
+    color: rgb(3, 184, 99);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#join-btn:hover{
+    background-color: rgb(3, 184, 99);
+    color: #fff;
+}
+.navbar input{
+    position: relative;
+    left: -6%;
+}
+input[type="text"]{
+    background: #fff;
+    width: 20%;
+    height: 35px;
+    border: 1px solid #555;
+    border-radius: 3px 0 0 3px;
+    outline: none;
+    padding: 0 20px;
+    color: #555;
+    font-size: 17px;
+}
+input[type="submit"]{
+    color: #fff;
+    background: rgb(3, 184, 99);
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    left: -110px;
+    top: 0px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(7, 158, 88);
+}
+
+/* ------------Banner------------- */
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #FAFAFA;
+  height: 600px;
+}
+.carousel img{
+    width: 100%;
+}
+.carousel-cell {
+  width: 100%;
+  height: 600px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: "";
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+
+/* <!-----Join Our Growing Freelance Community-----> */
+.title{
+    text-align: center;
+    margin: 0 auto 30px;
+    position: relative;
+    line-height: 60px;
+    color:black;
+}
+.row1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.categories{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    transition: transform .5s ease-in-out;
+}
+.col-4 img{
+    width: 100%;
+}
+.col-4 img:hover{
+    transform: translateY(-5px);
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+/*-------------- testimonial----------- */
+.testimonial{
+    padding-top: 25px;
+    margin-top: 25px;
+}
+.row-10{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.testimonial .col-8{
+    width:30%;
+    text-align:center;
+    padding:40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor:pointer;
+    border-radius: 15px;
+    background: rgb(230, 255, 251);
+    transition: transform 0.5s;
+}
+.testimonial .col-8 img{
+    width:70px;
+    margin-top:20px;
+    border-radius: 50%;
+}
+.testimonial .col-8:hover{
+    transform:translateY(-10px);
+}
+.bi.bi-chat-left-quote-fill{
+    font-size:34px;
+    color:rgb(3,184,99);
+}
+.rating {
+    color:#080872fd;
+}
+.col-8 p{
+    font-size:15px;
+    margin:12px 0;
+    line-height:25px;
+    letter-spacing:1px;
+    color:#777;
+}
+.testimonial .col-8 h3{
+    font-weight: 700;
+    color:#06065cfd;
+    letter-spacing: 1px;
+    font-size:17px;
+}
+
+/* accordion */
+.accordion-1{
+    max-width:80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius:0px;
+    overflow:hidden;
+    font-family:'Quicksand', sans-serif;
+    background:#5e5ef3fd;
+    margin-top:100px;
+    margin-right:10%;
+    margin-left:10%;
+}
+.accordion-2{
+    max-width:80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius:0px;
+    overflow:hidden;
+    font-family:'Quicksand', sans-serif;
+    background:rgb(3,184,99);
+    margin-top:0px;
+    margin-right:10%;
+    margin-left:10%;
+}
+.accordion-3{
+    max-width:80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius:0px;
+    overflow:hidden;
+    font-family:'Quicksand', sans-serif;
+    background:#569ff3fd;
+    margin-top:0px;
+    margin-right:10%;
+    margin-left:10%;
+}
+.accordion_label,
+.accordion_content{
+    padding:14px 20px;
+}
+.accordion_label{
+    display:block;
+    color:#fff;
+    font-weight:500;
+    cursor:pointer;
+    position:relative;
+    letter-spacing: 1px;
+    transition: background 0.1s;
+}
+.accordion_label:hover{
+    background:rgba(0,0,0,0.1);
+}
+.accordion_label::after{
+    content:"";
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right:20px;
+    width:12px;
+    height:6px;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
+    background-size:contain;
+    transition: transform 0.4s;
+}
+
+.accordion_content{
+    background:rgb(231, 229, 229);
+    line-height:2;
+    font-family:sans-serif;
+    font-size:15px;
+    color:#06065cfd;
+    display: none;
+    letter-spacing:1px;
+}
+.accordion_input{
+    display:none;
+}
+.accordion_input:checked ~ .accordion_content{
+     display:block;
+}
+.accordion_input:checked ~ .accordion_label::after{
+    transform:Y(-50%) rotate(0.5turn); 
+}
+
+/*-------------copyright css-------------- */
+
+footer .row-last{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom:20px;
+}
+footer .copyright{
+    display: inline;
+    width: 70%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+}
+footer .c-icons{
+
+   display: flex;
+   gap: 5%;
+    font-size: 20px;
+    width: 30%;
+    color: #555;
+    cursor: pointer;
+}
